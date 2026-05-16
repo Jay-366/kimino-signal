@@ -1,0 +1,61 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+build/
+
+# Hardhat
+/artifacts
+/cache
+/types
+/.gas-snapshot
+/snapshots
+/coverage.json
+/typechain
+/typechain-types
+/ignition/deployments/chain-31337
+
+# Foundry
+/out/
+/broadcast/
+/cache/
+/cache_forge/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+
+# Vercel
+.vercel
+
+# Misc
+.DS_Store
+*.pem
+
+# npm/pnpm/yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and Editors
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
